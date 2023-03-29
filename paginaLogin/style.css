@@ -1,0 +1,115 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    background-color: black;
+    border-bottom: 3px #32B9CD solid;
+}
+
+.container #titulo {
+    color: #32B9CD;
+    font-size: 2rem;
+}
+
+.container .nav {
+    display: flex;
+    height: 5rem;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .nav a,
+li {
+    font-size: 1.2rem;
+    color: #E3B062;
+    text-decoration: unset;
+}
+
+.ativo {
+    font-weight: 700;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 46rem;
+    align-items: center;
+    background-image: url('img/bg-jelly-fish-para_outras_pags.png');
+    background-repeat: round no-repeat;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 45%;
+    background-color: RGB(229, 229, 229);
+    border-radius: 4px;
+    align-items: center;
+}
+
+.login #bemvindo {
+    margin-top: 2rem;
+    color: #E6005A;
+    font-size: 2.3rem;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.login form label {
+    font-size: 1.3rem;
+    color: #E6005A;
+    margin-top: 2rem;
+    align-self: start;
+}
+
+.login form input[type=text],
+input[type=password] {
+    border: 1px #32B9CD solid;
+    font-size: 1rem;
+    padding: .3rem;
+    width: 10rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.login form input[type=submit] {
+    background-color: #E6005A;
+    border: none;
+    padding: .5rem;
+    width: 6rem;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+.footer {
+    background-color: #32B9CD;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer #footer-title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer #version {
+    color: white;
+}
